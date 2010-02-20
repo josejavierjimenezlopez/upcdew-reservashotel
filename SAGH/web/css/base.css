@@ -1,0 +1,95 @@
+/*Para el titulo de las Opciones del Menu (links)*/
+td.menuTitle {
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: small;
+    background-color: #D8E5EA;
+    color: #005682;
+}
+/* Para las Opciones del Menu (links)*/
+td.menuItem {
+    background-color: #005682;
+    text-align: right;
+}
+/* Para las Opciones del Menu (links)*/
+a.menuItem {
+    color: #F1F5F8;
+    background-color: #005682;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: x-small;
+}
+/* Para las Opciones de los Menus ""Extra"*/
+a.menuExtra {
+    color: #6E6E6E;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: xx-small;
+}
+
+a.menuItem:hover {
+    color: #005682;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: x-small;
+}
+
+
+/* Para los títulos de los JSP's'*/
+h2.titulo {
+    font-weight: 900;
+    color: #005682;
+    background-color:#D8E5EA;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+}
+
+/* Para los subtitulos de los jsp's'*/
+h3.subtitulo {
+    font-weight: bolder;
+    color: #005682;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+}
+
+/* Para la los títulos de las cabeceras o algun campo a resaltar*/
+td.tituloHeader {
+    font-size: smaller;
+    font-weight: bold;
+    color: #005682;
+    background-color:#D8E5EA;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    text-align: right;
+}
+
+/* Para la las filas "cabecera" o título de tabla"*/
+tr.tituloTabla {
+    font-size: x-small;
+    font-weight: bold;
+    color: #005682;
+    background-color:#D8E5EA;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    text-align: center;
+}
+
+/*Para los botones*/
+.boton {
+    color: #F1F5F8;
+    background-color: #005682;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+    font-size: x-small;
+}
+
+.mensajeError {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: small;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+}
+
+.mensajeOk {
+    color: #0000FF;
+    font-weight: bold;
+    font-size: small;
+    font-family: Verdana, Tahoma, Arial, Helvetica;
+}

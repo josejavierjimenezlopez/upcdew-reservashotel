@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="SARH" default="default" basedir=".">
+    <description>Builds, tests, and runs the project SARH.</description>
+
+    <!-- PC Alvaro -->
+    <!--
+    <property name="tomcat.home" value="C:\tomcat"/>
+    -->
+    
+    <property name="tomcat.home" value="C:\apache-tomcat-6.0.20"/>
+    
+    
+    <property name="deploy.dir" value="${tomcat.home}/webapps"/>
+    
+
+    <target name="default">
+
+        <delete file="${deploy.dir}/sagh.war"/>
+        <delete dir="${deploy.dir}/sagh"/>
+
+        <jar destfile="${deploy.dir}/sagh.war" basedir="web">
+            <include name="**/*.html"/>
+            <include name="**/*.jsp"/>
+            <include name="**/*.class"/>
+            <include name="**/*.properties"/>
+            <include name="WEB-INF/web.xml"/>
+            <include name="images/**"/>
+            <include name="css/**"/>
+            <include name="js/**"/>
+            <include name="WEB-INF/build"/>
+        </jar>
+
+    </target>
+
+</project>
