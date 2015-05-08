@@ -1,0 +1,1 @@
+Proyecto para Generar reservas de un hotel desde dentro de la empresa, es decir para uso del counter o personal del hotel. Se debe considerar que solo se reserva un tipo de habitacion como maximo
